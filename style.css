@@ -1,0 +1,12 @@
+html, body {
+  margin: 0;
+}
+
+#particle-canvas {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: none;
+  vertical-align: middle;
+  z-index: -50;
+}

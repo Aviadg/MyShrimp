@@ -1,0 +1,58 @@
+.side-bar {
+
+	position:relative;
+	top: 30%;
+
+}
+
+.side-bar a {
+
+	color: black;
+font-family: 'Bangers', cursive;
+font-size: 25px;
+
+
+}
+
+.left-strip {
+    position:fixed;
+    padding:0;
+    margin:0;
+    z-index: -1;
+
+    top:0;
+    left:0;
+
+    width: 20%;
+    height: 100%;
+    background-color:rgba(255,155,255,0.5);
+
+}
+
+
+
+.bg {
+  /* The image used */
+  position: relative;
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+html, body {
+  margin: 0;
+}
+
+#particle-canvas {
+  width: 100%;
+  height: 100vh;
+  background: none;
+  vertical-align: middle;
+ 
+}
